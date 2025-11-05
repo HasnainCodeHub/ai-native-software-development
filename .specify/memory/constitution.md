@@ -97,6 +97,7 @@ This book progresses from AI-native mindset (Parts 1-3) through bilingual full-s
    Define success criteria and evaluation methods BEFORE writing specifications or code. Professional AI development follows: **Evals → Spec → Implement → Validate**. This is the inverse of traditional TDD (test-after). In AI-native workflows, you define "what good looks like" first (evals/benchmarks), then write specs to achieve it, then generate implementation, then validate against evals. Companies like Anthropic, OpenAI, and Google DeepMind use this pattern for all AI system development.
 
    **Critical**: Evals must connect to **business goals**, not arbitrary technical metrics. Evals vary by context:
+
    - **Book chapter evals**: Reader comprehension (can student explain concept?), skill acquisition (can student apply technique?), engagement (did student complete chapter?), accessibility (reading level appropriate?)
    - **Code/feature evals**: Functional correctness (does it solve the user problem?), performance (meets user expectations?), reliability (error rate acceptable?), maintainability (can team modify it?)
    - **AI product evals**: User success rate (% completing task), accuracy on real use cases (not synthetic benchmarks), safety/alignment (harmful output rate), user satisfaction (NPS, retention)
@@ -542,7 +543,7 @@ All AI-generated outputs MUST be validated before use. Validation skills are as 
 - Testing taught early and reinforced throughout
 - Security scanning demonstrated and required
 - "Common Mistakes" sections include validation failures
-- Part 6+ (Production systems): Professional validation checklists
+- Part 6+ (Production systems): Lessons teach professional validation checklists as content (NOT as lesson closure elements)
 
 ---
 

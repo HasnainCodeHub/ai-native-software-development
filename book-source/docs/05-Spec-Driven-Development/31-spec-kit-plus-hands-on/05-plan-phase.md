@@ -202,6 +202,33 @@ It will review the plan and record key architectural decisions in history/adr di
 
 ---
 
+## Common Mistakes
+
+### Mistake 1: Documenting Every Small Decision as ADR
+
+**The Error**: Creating ADRs for trivial choices like "Use snake_case for functions" or "Put tests in tests/ folder"
+
+**Why It's Wrong**: ADRs are for **architecturally significant** decisions (long-term impact, multiple alternatives, future questioning). Trivial choices clutter your ADR history.
+
+**The Fix**: Apply the three-part test:
+- Does this have long-term consequences?
+- Are there multiple viable alternatives?
+- Will someone ask "why did we choose this" in 6 months?
+
+If not all three → Skip the ADR.
+
+### Mistake 2: Vague ADR Consequences
+
+**The Error**: ADR says "This approach is better" without explaining tradeoffs
+
+**Why It's Wrong**: Future developers need to understand **why** you chose this and what you gave up.
+
+**The Fix**: Document both positives and negatives:
+- ✅ "Pros: Simpler error handling. Cons: Less precise error messages for users."
+- ✅ "Alternatives considered: Exception hierarchy (rejected: overkill for 5 operations)"
+
+---
+
 ## Try With AI: Validate Your Plan and ADRs
 
 Use your AI companion to review your implementation plan and ADRs.
@@ -213,6 +240,20 @@ Use your AI companion to review your implementation plan and ADRs.
 **Context**: Your plan.md and 1-2 ADRs
 
 **Goal**: Confirm plan is sound and ADRs capture key architectural decisions
+
+:::tip ⚠️ Learning WITH AI (Not Generating FROM AI)
+
+**What this exercise teaches:**
+- ❌ **DON'T ask**: "Write the implementation code for me"
+- ❌ **DON'T ask**: "Generate all the functions"
+- ✅ **DO ask**: "Is my plan realistic and well-structured?"
+- ✅ **DO ask**: "Do my ADRs capture architecturally significant decisions?"
+- ✅ **DO ask**: "What alternatives should I consider for this decision?"
+
+**Your role**: Review plan structure, evaluate ADR quality, make architectural decisions
+**AI's role**: Validate plan soundness, suggest improvements, identify missing ADRs
+
+:::
 
 ### Prompt Set (Copy-Paste Ready)
 

@@ -355,6 +355,33 @@ Run ruff to check code quality and formatting.
 
 ---
 
+## Common Mistakes
+
+### Mistake 1: Accepting AI Code Without Reading It First
+
+**The Error**: AI generates code → You immediately commit without review
+
+**Why It's Wrong**: AI makes mistakes (missing error handling, hardcoded values, security issues). Blind trust leads to bugs.
+
+**The Fix**: Validation protocol (5-step checklist):
+1. **Read without running** - Understand what code does
+2. **Ask questions** - "Why this approach?" "What does this line do?"
+3. **Check against spec** - Does it match acceptance criteria?
+4. **Run tests** - Do all tests pass?
+5. **Review security** - Any hardcoded secrets? Input validation?
+
+### Mistake 2: Requesting Too Many Features at Once
+
+**The Error**: "Implement all 5 operations + tests + error handling + logging in one go"
+
+**Why It's Wrong**: Violates checkpoint pattern. No opportunity to review incrementally.
+
+**The Fix**: One task at a time:
+- Implement add() → Review → Commit → Next task
+- Not: Implement everything → Review 1000 lines → Hope it works
+
+---
+
 ## Try With AI: Reflect on Implementation and Decisions
 
 Use your AI companion to reflect on your implementation and capture important decisions.
@@ -366,6 +393,20 @@ Use your AI companion to reflect on your implementation and capture important de
 **Context**: Your completed implementation code and tests
 
 **Goal**: Validate implementation quality and reflect on key decisions captured in PHRs
+
+:::tip ⚠️ Learning WITH AI (Not Generating FROM AI)
+
+**What this exercise teaches:**
+- ❌ **DON'T ask**: "Write more code for me"
+- ❌ **DON'T ask**: "Add more features automatically"
+- ✅ **DO ask**: "Does this code match my specification?"
+- ✅ **DO ask**: "What decisions were captured in PHRs?"
+- ✅ **DO ask**: "Are there security issues I should address?"
+
+**Your role**: Validate implementation, review generated code, verify acceptance criteria
+**AI's role**: Answer questions about code, explain PHRs, identify potential issues
+
+:::
 
 ### Prompt Set (Copy-Paste Ready)
 

@@ -199,7 +199,7 @@ Before writing your own, let's look at base Constitution file. Open:
 .specify/memory/constitution.md
 ```
 
-Remebr the Goal: document the non-negotiable principles that every spec, plan, and task must honor.
+Remember the Goal: document the non-negotiable principles that every spec, plan, and task must honor.
 
 **The Key Insight**: Constitutions are project-specific. Your calculator Constitution would never mention "data lineage" because that's not relevant. A data pipeline Constitution wouldn't need type hints or power operations.
 
@@ -247,7 +247,7 @@ Quality requirements:
 Think about what "good code" means for a calculator project:
 
 ```markdown
-Updae @.specify/memory/constitution.md to improve Code Quality Standards
+Update @.specify/memory/constitution.md to improve Code Quality Standards
 
 - All functions must include type hints on parameters and return types
   - Example: `def add(a: float, b: float) -> float:`
@@ -313,6 +313,28 @@ Use the agent to commit and open a PR for the constitution:
 
 
 The Constitution is now **the foundation** for all your feature work. Every specification you write, every plan you generate, every task you break down-they all work within the Constitution's constraints.
+
+---
+
+## Common Mistakes
+
+### Mistake 1: Copying Constitution from Another Project Without Customization
+
+**The Error**: "I'll just use the example Constitution as-is for my calculator."
+
+**Why It's Wrong**: Constitutions are project-specific. A data pipeline Constitution mentions "data lineage" - irrelevant for calculators.
+
+**The Fix**: Read example Constitutions for structure, but write rules specific to YOUR project needs.
+
+### Mistake 2: Vague Quality Standards
+
+**The Error**: "Code must be good quality" or "Tests should be comprehensive"
+
+**Why It's Wrong**: "Good" and "comprehensive" are subjective. No one can verify these during code review.
+
+**The Fix**: Use testable criteria:
+- ❌ Vague: "Good code quality"
+- ✅ Testable: "All functions have type hints; lines under 100 characters; no magic numbers"
 
 ---
 

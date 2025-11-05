@@ -161,7 +161,7 @@ Most specifications need 1-2 clarification rounds. After that, they're ready for
 
 ---
 
-##Clarify Your Calculator Specification (25 minutes)
+## Clarify Your Calculator Specification
 
 Now let's clarify YOUR calculator specification.
 
@@ -211,6 +211,31 @@ If yes to all, your spec is ready for planning.
 
 ---
 
+## Common Mistakes
+
+### Mistake 1: Skipping /sp.clarify Because "Spec Looks Good to Me"
+
+**The Error**: "I wrote a detailed spec. I don't need clarification."
+
+**Why It's Wrong**: We're blind to our own ambiguities. What's "obvious" to you may be unclear on paper.
+
+**The Fix**: Always run `/sp.clarify`. You'll be surprised what gaps emerge. Most specs need 1-2 clarification rounds.
+
+### Mistake 2: Accepting All AI Suggestions Without Critical Thinking
+
+**The Error**: AI says "Consider adding X" → immediately adding X without evaluating necessity
+
+**Why It's Wrong**: Not all suggestions improve your spec. Some add unnecessary complexity.
+
+**The Fix**: Evaluate each suggestion:
+- Is this edge case likely in real use?
+- Does this improve clarity or add noise?
+- Does this align with my Constitution?
+
+Then decide: Accept, Reject, or Modify.
+
+---
+
 ## Try With AI: Validate Clarification Progress
 
 Use your AI companion to validate that your clarification has improved the specification.
@@ -222,6 +247,20 @@ Use your AI companion to validate that your clarification has improved the speci
 **Context**: Your original specification + clarification changes
 
 **Goal**: Confirm specification is clear, complete, and ready for planning
+
+:::tip ⚠️ Learning WITH AI (Not Generating FROM AI)
+
+**What this exercise teaches:**
+- ❌ **DON'T ask**: "Fix my specification for me"
+- ❌ **DON'T ask**: "Write the missing sections"
+- ✅ **DO ask**: "What ambiguities did you find in my spec?"
+- ✅ **DO ask**: "Can a developer implement from my specification alone?"
+- ✅ **DO ask**: "Are there critical gaps I should address?"
+
+**Your role**: Interpret feedback, decide which changes to make, refine specifications
+**AI's role**: Identify gaps, suggest clarifications, validate improvements
+
+:::
 
 ### Prompt Set (Copy-Paste Ready)
 

@@ -134,7 +134,7 @@ AI: "For a basic calculator, 6 decimal places minimum is standard:
      - Avoids floating-point display noise
      - Matches calculator conventions"
 
-You: "So wht success looks like?"
+You: "So what success looks like?"
 ```
 
 **Step 2: Formalize Into Specification**
@@ -237,6 +237,32 @@ A bad spec has:
 - ❌ Ignores Constitution (specification asks for things Constitution forbids)
 
 **Action**: Read your specification aloud. Does it sound clear? Would a developer understand exactly what to build?
+
+---
+
+## Common Mistakes
+
+### Mistake 1: Vague Acceptance Criteria
+
+**The Error**: "Calculator should work well" or "Results should be accurate"
+
+**Why It's Wrong**: "Work well" and "accurate" are subjective. What does "accurate" mean? To what precision?
+
+**The Fix**: Use SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound):
+- ❌ Vague: "Calculator should work correctly"
+- ✅ SMART: "Returns float with 6 decimal precision; handles division by zero with ValueError"
+
+### Mistake 2: Missing Edge Cases
+
+**The Error**: Only documenting happy path (add(5, 3) = 8) without edge cases
+
+**Why It's Wrong**: Edge cases cause 80% of bugs. If you don't specify them, AI won't handle them.
+
+**The Fix**: Document at least 3-4 edge cases per operation:
+- Division by zero
+- Negative exponents in power()
+- Type mixing (int + float)
+- Boundary conditions (very large/small numbers)
 
 ---
 

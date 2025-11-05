@@ -100,7 +100,7 @@ Before installing anything, let's clarify what Spec-Kit Plus actually is.
 
 ### The Architecture: Three Independent Layers
 
-Spec-Kit Plus is an Opiniated ToolKit for SDD. It have three independent but integrated components:
+Spec-Kit Plus is an Opiniated ToolKit for SDD. It has three independent but integrated components:
 
 **1. The Framework** (The actual Spec-Kit Plus toolkit)
 - File templates for specifications, plans, tasks
@@ -283,6 +283,26 @@ If the command is recognized, your orchestrator is configured correctly.
 
 ---
 
+## Common Mistakes
+
+### Mistake 1: Confusing Spec-Kit Plus with Claude Code
+
+**The Error**: "I installed Claude Code, so I have Spec-Kit Plus now."
+
+**Why It's Wrong**: Spec-Kit Plus is a separate framework. Claude Code is just the AI tool that executes Spec-Kit Plus commands.
+
+**The Fix**: Install both: `pip install specifyplus` (framework) AND configure Claude Code/Gemini CLI (AI tool).
+
+### Mistake 2: Skipping Project Initialization
+
+**The Error**: Creating folders manually instead of running `specifyplus init`
+
+**Why It's Wrong**: You miss critical infrastructure (.specify/ templates, configuration files, directory structure).
+
+**The Fix**: Always run `specifyplus init <project-name>` to set up proper structure.
+
+---
+
 ## Try With AI: Verify Your Complete Setup
 
 Now let's use your newly configured Spec-Kit Plus to run a real test. This activity consolidates your learning about Spec-Kit Plus architecture and validates that everything is working.
@@ -292,6 +312,19 @@ Now let's use your newly configured Spec-Kit Plus to run a real test. This activ
 **Tool**: Claude Code (or your configured AI orchestrator)
 
 **Context**: Your calculator-project directory with all infrastructure in place
+
+:::tip ⚠️ Learning WITH AI (Not Generating FROM AI)
+
+**What this exercise teaches:**
+- ❌ **DON'T ask**: "Write this code for me"
+- ❌ **DON'T ask**: "Generate the implementation"
+- ✅ **DO ask**: "Explain why Spec-Kit Plus is separate from Claude Code"
+- ✅ **DO ask**: "What's the difference between ADRs and PHRs?"
+
+**Your role**: Understand concepts, validate setup, ask clarifying questions
+**AI's role**: Explain architecture, verify configuration, answer questions
+
+:::
 
 ### Prompt Set (Copy-Paste Ready)
 

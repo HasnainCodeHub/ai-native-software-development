@@ -264,6 +264,30 @@ Commit the generated tasks to git:
 
 ---
 
+## Common Mistakes
+
+### Mistake 1: Tasks Too Large (8+ Hours)
+
+**The Error**: "Task: Implement entire calculator (8-16 hours)"
+
+**Why It's Wrong**: Large tasks hide complexity, delay feedback, and make checkpoints meaningless.
+
+**The Fix**: Break into atomic units (1-2 hours each):
+- ❌ Large: "Implement all operations"
+- ✅ Atomic: "Implement add()" (30 min), "Implement multiply()" (30 min), "Implement divide() with error handling" (1 hour)
+
+### Mistake 2: Ignoring Dependencies
+
+**The Error**: Planning to implement tests before implementing functions
+
+**Why It's Wrong**: Tasks have natural dependencies. Tests depend on functions existing.
+
+**The Fix**: Map dependencies explicitly:
+- Task 1: Implement add() → Task 2: Test add() (depends on Task 1)
+- Task 3: Implement divide() → Task 4: Test divide() (depends on Task 3)
+
+---
+
 ## Try With AI: Validate Task Breakdown
 
 Use your AI companion to confirm your tasks are well-decomposed and ready for implementation.
@@ -275,6 +299,20 @@ Use your AI companion to confirm your tasks are well-decomposed and ready for im
 **Context**: Your tasks.md file
 
 **Goal**: Confirm tasks are atomic, dependencies are correct, and checkpoint pattern will work
+
+:::tip ⚠️ Learning WITH AI (Not Generating FROM AI)
+
+**What this exercise teaches:**
+- ❌ **DON'T ask**: "Implement all these tasks for me"
+- ❌ **DON'T ask**: "Write the code for Task 1"
+- ✅ **DO ask**: "Are my tasks atomic (1-2 hours each)?"
+- ✅ **DO ask**: "Are the dependencies correct?"
+- ✅ **DO ask**: "Which tasks could I run in parallel?"
+
+**Your role**: Validate task breakdown, understand dependencies, plan execution strategy
+**AI's role**: Review atomicity, validate dependencies, suggest improvements
+
+:::
 
 ### Prompt Set (Copy-Paste Ready)
 
