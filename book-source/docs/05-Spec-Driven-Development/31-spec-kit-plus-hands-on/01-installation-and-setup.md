@@ -141,36 +141,40 @@ Horizontal intelligence captures decisions and learnings in a permanent, searcha
 
 You can optionally build Vertical intelligence at start of each project. This is like onboarding the specialized skilled workers in your team. It is how YOU work with AI orchestrators and specialized subagents:
 
-```mermaid
-graph TB
-    You["👤 You (Architect/Validator)<br/>Strategic Decisions & Quality Control"]
-
-    Orch["🤖 AI Orchestrator (Main Collaborator)<br/>Routes work to specialists"]
-
-    Spec["📝 Specification Subagent<br/>Writes clear requirements"]
-    Plan["🏗️ Planning Subagent<br/>Creates implementation plans"]
-    Impl["⚙️ Implementation Subagent<br/>Generates code + tests"]
-    Valid["✅ Validation Subagent<br/>Reviews quality"]
-
-    You -->|"What to build?"| Orch
-    Orch -->|"Delegates"| Spec
-    Orch -->|"Delegates"| Plan
-    Orch -->|"Delegates"| Impl
-    Orch -->|"Delegates"| Valid
-
-    Spec -->|"Returns spec"| Orch
-    Plan -->|"Returns plan"| Orch
-    Impl -->|"Returns code"| Orch
-    Valid -->|"Returns feedback"| Orch
-
-    Orch -->|"Review & Approve"| You
-
-    style You fill:#e1f5e1,stroke:#2d5016,stroke-width:3px
-    style Orch fill:#fff4e6,stroke:#d68910,stroke-width:2px
-    style Spec fill:#e3f2fd,stroke:#1565c0
-    style Plan fill:#e3f2fd,stroke:#1565c0
-    style Impl fill:#e3f2fd,stroke:#1565c0
-    style Valid fill:#e3f2fd,stroke:#1565c0
+```
+┌─────────────────────────────────────────────────────────┐
+│  👤 YOU (Architect/Validator)                           │
+│  Strategic Decisions & Quality Control                  │
+│                                                          │
+│  "What to build?" ──────────────┐                       │
+│                                  ↓                       │
+│                   ┌──────────────────────────┐          │
+│                   │  🤖 AI ORCHESTRATOR      │          │
+│                   │  Main Collaborator       │          │
+│                   │  Routes work to experts  │          │
+│                   └──────────────────────────┘          │
+│                            ↓                             │
+│         ┌──────────────────┼──────────────────┐         │
+│         ↓                  ↓                  ↓          │
+│  ┌────────────┐   ┌────────────┐   ┌────────────┐      │
+│  │ 📝 Spec    │   │ 🏗️ Plan    │   │ ⚙️ Impl    │      │
+│  │ Subagent   │   │ Subagent   │   │ Subagent   │      │
+│  │            │   │            │   │            │      │
+│  │ Writes     │   │ Creates    │   │ Generates  │      │
+│  │ clear      │   │ plans      │   │ code +     │      │
+│  │ specs      │   │            │   │ tests      │      │
+│  └────────────┘   └────────────┘   └────────────┘      │
+│         │                  │                  │          │
+│         └──────────────────┼──────────────────┘         │
+│                            ↓                             │
+│                   ┌────────────────┐                     │
+│                   │ ✅ Validation  │                     │
+│                   │ Subagent       │                     │
+│                   │ Reviews quality│                     │
+│                   └────────────────┘                     │
+│                            │                             │
+│  ← Review & Approve ───────┘                            │
+└─────────────────────────────────────────────────────────┘
 ```
 
 **How Vertical Intelligence Works**:
