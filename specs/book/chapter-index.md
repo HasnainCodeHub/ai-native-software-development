@@ -54,7 +54,7 @@ Effective AI communication: markdown fundamentals, prompting and context managem
 
 ## Part 4: Python Fundamentals (Chapters 12-29)
 
-Core language skills: production-quality Python with AIDD
+Core language skills: production-quality Python
 
 | # | Chapter Title | File Name | Status |
 |---|---------------|-----------|--------|
