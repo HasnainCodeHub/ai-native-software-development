@@ -33,7 +33,7 @@ skills:
     category: "Technical"
     bloom_level: "Apply"
     digcomp_area: "Content Creation"
-    measurable_at_this_level: "Student can write dict comprehensions using {key: value for key, value in iter} syntax"
+    measurable_at_this_level: "Student can write dict comprehensions using `{key: value for key, value in iter}` syntax"
 
   - name: "Dictionary Comprehension Filtering"
     proficiency_level: "B1"
@@ -437,9 +437,9 @@ print(student_records["Bob"]["major"])
 ```
 
 **When would you use nested dictionaries?** When you have structured data with multiple attributes. Real-world examples:
-- User profiles (user ID → {name, email, age})
-- API responses (resource → {id, name, description, status})
-- Configuration files (section → {setting1, setting2, setting3})
+- User profiles (user ID → `{name, email, age}`)
+- API responses (resource → `{id, name, description, status}`)
+- Configuration files (section → `{setting1, setting2, setting3}`)
 
 **Iterating nested dictionaries:**
 
@@ -730,7 +730,7 @@ Use **ChatGPT web** (or your AI companion tool if already set up) for the follow
 
 > "Write a dictionary comprehension that converts temperatures from Celsius to Fahrenheit. Start with a dict like `{'New York': 20, 'Los Angeles': 25}`. Show the original dict, the comprehension code, and the output. Then modify it to only include cities above 70°F in the result."
 
-**Expected Outcome**: You write a correct comprehension with the formula (C * 9/5) + 32, see the output, and add filtering. You understand the {key: value for ...} syntax and if conditions.
+**Expected Outcome**: You write a correct comprehension with the formula (C * 9/5) + 32, see the output, and add filtering. You understand the `{key: value for ...}` syntax and if conditions.
 
 ---
 
