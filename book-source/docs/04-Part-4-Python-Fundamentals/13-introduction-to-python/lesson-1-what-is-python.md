@@ -8,35 +8,35 @@ duration_minutes: 40
 # Not visible to students; enables competency assessment and differentiation
 skills:
   - name: "Understanding Python's Role in AI Development"
-    proficiency_level: "A1"
+    proficiency_level: "A2"
     category: "Conceptual"
     bloom_level: "Remember"
     digcomp_area: "Information & Data Literacy"
-    measurable_at_this_level: "Student can recognize Python as a programming language; explain that it's used for AI; identify one real-world AI use case"
+    measurable_at_this_level: "Student can recognize Python as a programming language; explain that it's used for AI; identify multiple real-world AI use cases"
 
   - name: "Recognizing Python's Advantages"
-    proficiency_level: "A1"
+    proficiency_level: "A2"
     category: "Conceptual"
     bloom_level: "Understand"
     digcomp_area: "Information & Data Literacy"
-    measurable_at_this_level: "Student can explain Python's readable syntax and why it appeals to AI developers"
+    measurable_at_this_level: "Student can explain Python's readable syntax, library ecosystem, and why it's preferred for AI development"
 
-  - name: "Positioning Python in AI-Native Development"
-    proficiency_level: "A1"
+  - name: "Understanding AI Collaboration in Development"
+    proficiency_level: "A2"
     category: "Conceptual"
     bloom_level: "Understand"
     digcomp_area: "Communication & Collaboration"
-    measurable_at_this_level: "Student understands type hints as 'describing intent' and can connect this to specification-first thinking"
+    measurable_at_this_level: "Student understands that AI tools can assist with Python development and knows when to ask for help"
 
 learning_objectives:
   - objective: "Explain what Python is and why it's important for AI development"
-    proficiency_level: "A1"
+    proficiency_level: "A2"
     bloom_level: "Understand"
-    assessment_method: "Student writes 2-3 sentences explaining Python's role in AI; identifies real-world use cases"
+    assessment_method: "Student writes 2-3 sentences explaining Python's role in AI; identifies real-world use cases; explains one key advantage"
 
 cognitive_load:
   new_concepts: 5
-  assessment: "5 new concepts (What is a programming language, Python as a language, Python's superpower for AI, Why Python for this book, Python in the development workflow) within A1 limit of 5 ✓"
+  assessment: "5 new concepts (What is a programming language, Python as a language, Python's ecosystem for AI, Real-world AI applications, AI as learning partner) within A2 limit of 7 ✓"
 
 differentiation:
   extension_for_advanced: "Research how Python compares to other AI languages (R, Julia, C++); analyze job market data for Python developers"
@@ -62,23 +62,15 @@ Imagine you want to tell a computer to do something. You can't speak English to 
 
 **Python is a programming language.** It's a system of words, symbols, and rules that lets you describe what you want a computer to do. Think of it like this: if English is how you communicate with people, Python is how you communicate with computers.
 
-Here's what makes Python special: it's **readable**. Compare these two ways to write the same instruction:
+Here's what makes Python special: it's **readable**. Here's a simple Python instruction:
 
-In a harder language:
-```cpp
-#include <iostream>
-int main() {
-  std::cout << "Hello, World!" << std::endl;
-  return 0;
-}
-```
-
-In Python:
 ```python
 print("Hello, World!")
 ```
 
-See the difference? Python code looks almost like English. That readability isn't accidental—it's a core design principle. The language's creator, Guido van Rossum, believed that code is read more often than it's written, so it should be easy to read.
+This tells the computer to display the text "Hello, World!" Notice how the code almost reads like English? That readability isn't accidental—it's a core design principle. Python's creator, Guido van Rossum, believed that code is read more often than it's written, so it should be easy to read.
+
+**Why readability matters:** When you're learning, readable code is easier to understand. When you're working with AI tools, readable code is easier for AI to explain and help you with. When you're collaborating with other developers, readable code means everyone understands what's happening.
 
 ## Why Python for AI Development?
 
@@ -104,19 +96,18 @@ Why Python for all of these? Three reasons:
 
 ## How Python Fits Into This Book
 
-Here's the key insight: **You're not learning traditional programming. You're learning AI-Driven Development with Python.**
+**You're learning Python as your first programming language, with AI as your learning partner.**
 
-In traditional programming education, you memorize syntax. You learn "how to write a `for` loop" or "how to create a function." You memorize the details because you'll be typing them manually.
+This book teaches Python differently than traditional programming courses:
 
-In **AI-Driven Development**, the game is different:
+- **You'll learn concepts** by reading clear explanations and working examples
+- **You'll practice with AI help** to validate your understanding and troubleshoot errors
+- **You'll build real programs** that demonstrate each concept
+- **You'll use type hints from the start** to make your code clear and self-documenting
 
-- **You describe intent** (using type hints and clear variable names)
-- **AI handles syntax** (generates the code)
-- **You validate and understand** (you read the code AI generates and verify it's correct)
+In later chapters, you'll learn how to use Python with AI tools to build complete applications. But first, you need to understand Python itself—what it is, how it works, and how to write programs that solve problems.
 
-Type hints are central to this workflow. When you write `age: int = 25`, you're not just annotating—you're **describing intent**. You're saying "I want a variable that holds an integer representing age." That description is so clear that an AI tool can generate more accurate code for you.
-
-This is a preview of Part 5, where you'll learn **Specification-Driven Development**. But the foundation starts here with Python and type hints.
+**The journey ahead:** This chapter introduces Python and gets it running on your computer. Future chapters will teach you how to store data, make decisions, repeat operations, and organize code. Each chapter builds on the previous one, so take your time and make sure you understand before moving forward.
 
 #### 💬 AI Colearning Prompt
 
@@ -128,11 +119,16 @@ Try this with Claude Code or Gemini CLI. You're teaching your AI to explain conc
 
 #### 🎓 Instructor Commentary
 
-Here's a mindset shift that matters: **Syntax is cheap—semantics is gold.**
+Here's an important insight about learning Python in the AI era:
 
-Everyone can memorize Python syntax. What matters is understanding WHAT you're building and WHY. That's where AI comes in. It handles syntax details while you focus on intent and design. This is the defining skill of AI-Driven Developers: not "Can I write a loop?" but "Do I understand when a loop solves my problem? Can I communicate that intent to AI?"
+**You don't need to memorize every detail.** What matters most is understanding:
+- **What** the code does (what problem it solves)
+- **Why** you'd use this approach (when is it the right tool?)
+- **How** to recognize when something's wrong (reading and debugging)
 
-Keep this principle close as you move through the coming chapters.
+Your AI learning partner (Claude Code or Gemini CLI) can help with syntax details, error messages, and explaining how code works. Your job is to build understanding—to know what you want to accomplish and whether your code actually does it.
+
+This collaborative approach—you focus on understanding, AI handles details—is how modern developers work. You're learning this from day one.
 
 #### 🚀 CoLearning Challenge
 

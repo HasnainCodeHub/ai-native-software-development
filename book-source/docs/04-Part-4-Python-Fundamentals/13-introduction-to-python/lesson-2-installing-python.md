@@ -7,14 +7,14 @@ duration_minutes: 90
 # HIDDEN SKILLS METADATA (Institutional Integration Layer)
 skills:
   - name: "Python Installation & Verification"
-    proficiency_level: "A1-A2"
+    proficiency_level: "A2"
     category: "Technical"
     bloom_level: "Apply"
     digcomp_area: "Problem-Solving"
     measurable_at_this_level: "Student can download Python from python.org; follow OS-specific instructions; run `python --version`; recognize correct output"
 
   - name: "Version Management Understanding"
-    proficiency_level: "A1"
+    proficiency_level: "A2"
     category: "Conceptual"
     bloom_level: "Remember"
     digcomp_area: "Information & Data Literacy"
@@ -29,7 +29,7 @@ skills:
 
 learning_objectives:
   - objective: "Install Python 3.14+ successfully on your computer"
-    proficiency_level: "A1-A2"
+    proficiency_level: "A2"
     bloom_level: "Apply"
     assessment_method: "`python --version` command returns Python 3.14+ or higher"
 
@@ -45,7 +45,7 @@ learning_objectives:
 
 cognitive_load:
   new_concepts: 4
-  assessment: "4 new concepts (What is an installer, Python from python.org, Version importance, Terminal verification) within A1-A2 limit of 5 ✓"
+  assessment: "4 new concepts (What is an installer, Python from python.org, Version importance, Terminal verification) within A2 limit of 7 ✓"
 
 differentiation:
   extension_for_advanced: "Explore Python version history; understand why we chose 3.14+ over older versions; research package manager options"

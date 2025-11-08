@@ -2,9 +2,11 @@
 
 ## Overview
 
-Welcome to Python—the language of AI-driven development. This chapter introduces Python not as "a programming language to memorize," but as "a tool for describing intent that AI agents can execute." You'll move from understanding what Python is and why it matters for AI, through hands-on skills like installing Python and writing your first programs, to building a capstone project that integrates everything you've learned.
+Welcome to Python—the language of AI-driven development. This chapter introduces Python as a powerful, readable language that serves as the foundation for AI systems worldwide. You'll learn what Python is, get it running on your computer, and write your first programs using the `print()` function.
 
-This chapter applies the AI-Native Learning methodology from earlier chapters: you describe what you want your code to do, explore concepts with your AI companion (Claude Code or Gemini CLI), validate your understanding through interactive programs, and learn from errors by asking "why?" This is the same pattern you'll use in every future chapter.
+This chapter provides the foundation you need before diving into variables and data types in Chapter 14. By the end, you'll understand Python's role in AI development, have a working Python installation, and know how to create and run basic Python programs.
+
+This chapter applies the AI-Native Learning methodology: you explore concepts with your AI companion (Claude Code or Gemini CLI), validate your understanding through hands-on practice, and learn from errors by asking "why?" This pattern continues throughout Part 4.
 
 ## What You'll Learn
 
@@ -12,19 +14,17 @@ By the end of this chapter, you will be able to:
 
 1. **Explain what Python is** and why it's the ideal language for AI development (Lesson 1)
 2. **Install Python 3.14+** on your computer and verify everything works (Lesson 2)
-3. **Write variables with type hints** to describe your intent clearly (Lesson 3)
-4. **Run Python programs** and interpret what they do (Lesson 4)
-5. **Build your own interactive program** that demonstrates all these concepts (Lesson 5)
+3. **Create and run Python program files** using the `print()` function (Lesson 3)
+
+**What's next**: Chapter 14 teaches you to store data in **variables with type hints**—the foundation for all Python programming.
 
 ## Estimated Time
 
-Total estimated time for this chapter: **4-5 hours** (including the capstone project)
+Total estimated time for this chapter: **2.5-3 hours**
 
-- **Lesson 1**: 40 minutes
-- **Lesson 2**: 60-90 minutes
-- **Lesson 3**: 75 minutes
-- **Lesson 4**: 75 minutes
-- **Lesson 5 (Capstone)**: 90 minutes
+- **Lesson 1 (What Is Python)**: 40 minutes
+- **Lesson 2 (Installing Python)**: 90 minutes
+- **Lesson 3 (Hello World and Print)**: 40 minutes
 
 ## Prerequisites
 
@@ -45,24 +45,23 @@ No prior programming experience required—we start from zero.
 
 ## Key Themes Throughout This Chapter
 
-### Theme 1: "Syntax is Cheap, Semantics is Gold"
+### Theme 1: Foundation First
 
-You don't need to memorize Python syntax. Your AI tool knows Python deeply. What matters is understanding *what* you're building and *why*. That's where your focus goes—intent, logic, design. Syntax details? Ask your AI.
+This chapter focuses on the essentials: understanding what Python is, installing it, and running basic programs. Variables, type hints, and complex programs come in Chapter 14. Take time to build a solid foundation.
 
-### Theme 2: Type Hints Describe Intent
-
-In this chapter, we position **type hints** (like `age: int = 25`) not as optional annotations, but as **the way you describe intent to both AI and other humans**. This prepares you for Specification-Driven Development in Part 5.
-
-### Theme 3: AI as Co-Reasoning Partner
+### Theme 2: AI as Learning Partner
 
 Throughout every lesson, you'll collaborate with your AI companion:
-- To explore concepts
+- To explore concepts and ask "why?"
 - To validate your understanding
 - To troubleshoot errors
-- To review your code
-- To reflect on what you've learned
+- To practice explaining concepts in your own words
 
 This is professional development practice, and it's how you'll work for the rest of this book.
+
+### Theme 3: Hands-On Practice
+
+Don't just read the code examples—type them yourself, run them, modify them, break them, and fix them. Hands-on experience is how you truly learn programming.
 
 ## Lesson Structure
 
@@ -76,33 +75,33 @@ Each lesson follows the same pattern:
 
 **Important**: Every lesson ends with "Try With AI"—no additional summary or checklist. That section is your cognitive closure for the lesson.
 
-## The Capstone Project
-
-At the end of Chapter 13, you'll build a **Personal Information Collector** program—an interactive application that asks for user input, validates it, and displays a formatted summary. This integrates all concepts from Lessons 1-4 and demonstrates specification-first thinking: you design *before* you code.
-
 ## How to Use This Chapter
 
-**Read in order**: Lessons 1-5 build on each other. Don't skip ahead.
+**Read in order**: Lessons 1-3 build on each other. Don't skip ahead.
 
 **Do every "Try With AI" prompt**: These aren't optional extras—they're where the real learning happens. Take time with each prompt, think through your answers, and engage authentically with your AI partner.
 
 **Test all code examples**: Run every code example yourself. Don't just read it. See it work (or fail) on your computer. That hands-on experience matters.
 
-**Build the capstone thoughtfully**: The capstone is your chance to apply everything. Don't rush. Design first, code second. Validate that your program does what you intended.
+**Move to Chapter 14 when ready**: Once you complete Chapter 13, move immediately to Chapter 14 (Data Types) where you'll learn variables, type hints, and how to store data.
 
 ## Connection to Your Learning Journey
 
 ### From Part 3 → Part 4
 
-In Part 3, you learned AI-Driven Development principles and how to work with AI tools. In Part 4, you're learning Python—the primary language for AI development. This chapter is the bridge: it applies AIDD principles *to* learning Python, not just to abstract concepts.
+In Part 3, you learned AI-Driven Development principles and how to work with AI tools. In Part 4, you're learning Python—the primary language for AI development. This chapter is the bridge: it applies AIDD principles *to* learning Python.
 
 ### From Chapter 13 → Chapter 14+
 
-Chapter 13 is foundational. Chapter 14 expands on data types. Chapter 15 covers operators and variables. Chapter 17+ covers control flow, functions, and beyond. Everything builds on what you learn here, so invest the time to really understand.
+**Chapter 13** provides the foundation: What is Python, installing Python, and basic `print()` programs.
+
+**Chapter 14** builds on this: Variables with type hints, data types (int, float, str, bool), and type exploration. This is where Python gets powerful.
+
+**Chapter 15+** covers operators, strings, control flow, functions, and beyond. Everything builds on Chapters 13-14.
 
 ### Preparing for Part 5
 
-Part 5 introduces Specification-Driven Development (SDD)—the professional practice of writing detailed specifications before coding. In this chapter, we preview that with **type hints as intent description**. When you reach Part 5, SDD will feel natural because you've been practicing it with type hints in Python.
+Part 5 introduces Specification-Driven Development (SDD)—the professional practice of writing detailed specifications before coding. Chapter 14 previews this with **type hints as intent description**. By the time you reach Part 5, specification-first thinking will feel natural.
 
 ## A Note on AI Collaboration
 
@@ -130,6 +129,7 @@ Let's go! 🚀
 **Chapter Information**:
 - **Part**: 4 (Python Fundamentals)
 - **Number**: 13
-- **Complexity Tier**: Beginner (CEFR A1-A2, with B1 capstone)
+- **Complexity Tier**: Intermediate (CEFR A2)
 - **Learning Pattern**: AI-Native Learning
-- **Key Skill Focus**: Understanding intent description (type hints) as foundation for specification-first thinking
+- **Key Skill Focus**: Python introduction - setup and basic programs
+- **Next Chapter**: Chapter 14 (Data Types) - Variables, type hints, and data storage
