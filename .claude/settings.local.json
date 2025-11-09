@@ -1,36 +1,5 @@
 {
-  "hooks": {
-    "SessionStart": [
-      {
-        "type": "command",
-        "command": "echo '🚀 Claude Code session started for this project'"
-      }
-    ],
-    "PreToolUse": [
-      {
-        "matcher": "Bash",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "echo '⚡ Running bash command...'"
-          }
-        ]
-      }
-    ],
-    "PostToolUse": [
-      {
-        "matcher": "Edit",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "echo '✅ File edited successfully'"
-          }
-        ]
-      }
-    ]
-  },
   "alwaysThinkingEnabled": false,
-  "model": "haiku",
   "permissions": {
     "allow": [
       "Bash(python:*)"
