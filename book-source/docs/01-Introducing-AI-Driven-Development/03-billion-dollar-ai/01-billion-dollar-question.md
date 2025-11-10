@@ -93,9 +93,27 @@ Three forces have converged to create this moment:
 
 But here's what matters most: **This transformation creates unprecedented opportunity for individuals.** You don't need a large team, years of experience, or venture capital to build valuable software. You need understanding, strategy, and the ability to work effectively with AI agents.
 
+#### 💬 AI Colearning Prompt
+
+> **Explore with your AI**: "The lesson mentions three forces converging: capability threshold, mainstream adoption, and economic shift. Let's dig deeper—which of these three would you say is the MOST fragile? In other words, which one could reverse and close this opportunity window? Test your AI's reasoning, then share your own perspective."
+
 That's what this chapter teaches you.
 
+#### 🎓 Instructor Commentary
+
+> Notice how this opportunity isn't just about AI getting better—it's about **convergence**. Tools crossed a threshold (technical), developers adopted them (social), and economics shifted (financial). When multiple independent forces align, opportunities compound. This is why timing matters: you're not just riding one trend, you're riding three trends that reinforce each other.
+
 By the end, you'll understand why the path to a billion dollars no longer requires a traditional startup scaling curve—and how to take that path yourself.
+
+#### 🚀 CoLearning Challenge
+
+**Quick Test**: Ask your AI companion: "If I had to pick ONE of the three forces (capability, adoption, economics) to prove to a skeptical investor, which one has the strongest evidence? Show me the data."
+
+**What you're practicing**: Critical thinking with AI. You're not just accepting claims—you're asking your AI to justify them with evidence, then evaluating whether that evidence is convincing.
+
+#### ✨ Teaching Tip
+
+Think of this like the early internet (1995-2000): infrastructure matured (modems → broadband), adoption crossed threshold (millions online), and economics shifted (e-commerce became viable). Those who saw the convergence early built Amazon, eBay, Google. Same pattern, different era.
 
 ---
 
@@ -119,10 +137,10 @@ The lesson mentions 'three forces converged.' Break these down for me: (1) tools
 
 ### Prompt 3: Understand Competitive Dynamics
 ```
-Here's what I'm thinking: If AI makes building software easier, won't EVERYONE try to build companies? Won't that make it harder, not easier, to succeed? Help me understand why this is actually an opportunity for ME, not just for already-successful tech people.
+Here's what I'm thinking: If AI makes building software easier, won't EVERYONE try to build companies? Won't that make it harder, not easier, to succeed? Let's explore this together—first, explain the counterargument (why MORE competition might actually create MORE opportunity). Then, I'll share my skepticism, and you adapt your reasoning based on my concerns. Let's iterate until I'm genuinely convinced—or until we identify the real risks I should watch out for.
 ```
 
-**Expected outcome**: Confidence that this opportunity is accessible (not just for tech insiders).
+**Expected outcome**: Confidence that this opportunity is accessible (not just for tech insiders), achieved through **collaborative exploration** where you test AI's reasoning and it adapts to your concerns.
 
 ### Prompt 4: Assess Learning Requirements
 ```

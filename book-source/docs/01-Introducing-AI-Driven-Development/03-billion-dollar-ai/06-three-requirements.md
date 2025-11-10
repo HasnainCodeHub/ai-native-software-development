@@ -136,6 +136,10 @@ The AI stays general-purpose, but your *system* has domain expertise built into 
 
 **Without domain expertise (via either path)**, you're just a thin wrapper around general AI. Competitors replicate you in weeks.
 
+#### 🎓 Instructor Commentary
+
+> The choice between Path 1 (fine-tuning) and Path 2 (vertical intelligence) isn't binary—it's strategic. Fine-tuning excels at **pattern recognition** (medical diagnosis from imaging, legal document analysis). Vertical intelligence excels at **procedural workflows** (insurance claim routing, compliance checking). Many successful companies use both: fine-tune the AI model for domain language understanding, then layer vertical intelligence (sub-agents, skills, MCPs) for specific workflows. The key insight: **domain expertise is non-negotiable**, but HOW you encode it is flexible.
+
 ## Requirement 2: Deep Integrations with Existing Systems
 
 Your subagent must speak the language of incumbent systems. Not just *read* data from them, but *write back* in ways that respect workflows, security models, and approval processes.
@@ -145,6 +149,10 @@ A healthcare subagent that reads from Epic but can't write clinical notes in the
 These integrations are expensive (months of API documentation, regulatory compliance, security audits) and they're defensible (competitors must rebuild them).
 
 Without this, you're building in a sandbox, not serving real customers.
+
+#### 💬 AI Colearning Prompt
+
+> **Explore with your AI**: "The lesson says deep integrations are 'expensive and defensible.' Let's test this—ask your AI: 'Give me an example of a company that built deep integrations as their moat. How long did it take competitors to replicate those integrations?' Then challenge it: Are integrations ACTUALLY defensible in the API economy, or can competitors just build integrations quickly?"
 
 ## Requirement 3: Complete Agentic Solutions
 
@@ -174,6 +182,10 @@ Then layered:
 
 With all three, Study Mode would be a $10M+ annual revenue business. Without all three, it's a feature OpenAI ships once and deprioritizes.
 
+#### ✨ Teaching Tip
+
+The OpenAI Study Mode failure illustrates a principle: **features without integration are demos**. OpenAI had the best AI (Requirement 1), but without deep LMS integrations (Requirement 2) or complete teacher workflows (Requirement 3), Study Mode remained a curiosity. The lesson: technology alone isn't enough—you need to solve the COMPLETE user problem, not just the interesting technical piece.
+
 ## The Consequence of Missing Any Element
 
 If you have domain expertise + integrations but NO agentic solution, you're just a data pipeline. Useful, but not transformative.
@@ -183,6 +195,12 @@ If you have domain expertise + agentic solution but NO integrations, you're buil
 If you have integrations + agentic solution but NO domain expertise (via fine-tuning OR vertical intelligence), you're a wrapper around general AI. Competitors replicate in weeks.
 
 **All three elements must work together.** This is why PPP matters: it systematically builds all three. Phase 1 (infrastructure layering) addresses integrations. Phase 2 (market validation) provides domain expertise—you can collect data for fine-tuning OR build vertical intelligence through sub-agents and skills. Phase 3 (strategic pivot) layers the agentic solutions.
+
+#### 🚀 CoLearning Challenge
+
+**Quick Test**: Pick a failed product you've heard of (or ask your AI for examples). Ask your AI: "Which of the three requirements was this product missing? (1) Domain expertise, (2) Deep integrations, (3) Complete agentic solution?" Then validate: Do you agree with your AI's diagnosis, or is it oversimplifying why the product failed?
+
+**What you're practicing**: Applying the three-requirements framework to real failure cases, then using critical thinking to evaluate whether the framework truly explains the failure.
 
 ---
 
@@ -204,12 +222,12 @@ The OpenAI Study Mode example shows what happens when you're missing requirement
 
 **Expected outcome**: Pattern recognition from real failure case studies.
 
-### Prompt 3: Choose Between Two Paths
+### Prompt 3: Choose Between Two Paths 
 ```
-The lesson says there are TWO ways to get domain expertise: (1) fine-tuned models or (2) vertical reusable intelligence with sub-agents and skills. I'm confused about which one is right for me. Help me understand: If I wanted to build a solution for [pick: teachers / small business owners / healthcare workers / legal professionals], which path should I start with? Give me concrete reasons based on my situation (I'm a beginner with limited budget).
+The lesson says there are TWO ways to get domain expertise: (1) fine-tuned models or (2) vertical reusable intelligence with sub-agents and skills. Let's figure out which one is right for me: I want to build a solution for [pick: teachers / small business owners / healthcare workers / legal professionals], and I'm [describe: beginner with limited budget / technical but time-constrained / etc.]. First, help me understand the tradeoffs. Then I'll share my constraints, and you recommend a path. Then I'll challenge your recommendation, and we'll iterate until I have confidence in the decision.
 ```
 
-**Expected outcome**: Personalized recommendation on whether to pursue Path 1 (fine-tuning) or Path 2 (vertical intelligence) based on your vertical and resources.
+**Expected outcome**: Personalized recommendation on whether to pursue Path 1 (fine-tuning) or Path 2 (vertical intelligence), achieved through **collaborative decision-making** where you and your AI iterate on the tradeoffs until you're confident.
 
 ### Prompt 4: Demystify Model Fine-Tuning
 ```

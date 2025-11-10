@@ -71,6 +71,10 @@ AI changes that equation fundamentally.
 
 The stunning insight: **as AI improves at the 90%, the 10% becomes infinitely more valuable.**
 
+#### 🎓 Instructor Commentary
+
+> Here's the paradigm shift: In traditional software, **more code = more value**. In AI-native software, **better judgment = more value**. Your competitive advantage isn't typing speed or syntax knowledge—it's understanding WHAT to build, for WHOM, and WHY. This is why non-technical founders can now compete: the bottleneck shifted from implementation skill to strategic insight. And strategic insight comes from domain knowledge, customer empathy, and market understanding—skills anyone can develop.
+
 ## Historical Precedent: The Super Orchestrator Pattern
 
 Consider Instagram's acquisition by Facebook in 2012. Instagram had **13 employees** when it sold for **$1 billion**.
@@ -93,6 +97,10 @@ That's **$345 million per employee**. Again, the economics were shocking because
 
 *Claude Code is measured in annual recurring revenue (ARR), not valuation. If valued at 4x revenue (typical for SaaS), valuation would be $2B.*
 
+#### 💬 AI Colearning Prompt
+
+> **Explore with your AI**: "The table shows Instagram at $77M per employee, WhatsApp at $345M, and Claude Code potentially higher. Let's dig into the pattern—ask your AI: 'What's the mathematical relationship between value-per-employee and the percentage of work that's automated?' Then challenge it: Are we cherry-picking examples, or is this a real trend? What evidence would prove this ISN'T just survivorship bias?"
+
 ## The Path from Solo to $10M Annual Revenue
 
 Let's map the realistic path for a solo entrepreneur:
@@ -112,6 +120,10 @@ Notice that **the team doesn't scale with revenue**. A solo developer can reach 
 
 The bottleneck is **human attention**, not infrastructure. As long as you make good strategic decisions (which subagents to deploy, which verticals to enter, how to differentiate), the business scales.
 
+#### ✨ Teaching Tip
+
+The "human attention" bottleneck is like being a conductor of an orchestra: you don't need to play every instrument, you need to know when each instrument should play. One conductor can orchestrate 100 musicians (or 100 AI agents). The skill is coordination and judgment, not manual execution.
+
 ## Why This Works Right Now
 
 The 90-10 rule has always existed, but it *didn't matter* before because humans couldn't delegate the 90% efficiently. A solo developer needed to maintain code, fix bugs, deploy features, manage infrastructure. These tasks are 90% mechanical, but they required focused human time.
@@ -124,6 +136,12 @@ Now a solo developer can:
 - Scale to multiple verticals simultaneously (subagents multiply the developer's reach)
 
 This is why Claude Code's $500M achievement in two months isn't anomalous. It's the inevitable outcome of the 90-10 economics when AI handles the mechanical work.
+
+#### 🚀 CoLearning Challenge
+
+**Quick Test**: Ask your AI: "I'm a solo developer targeting [pick a vertical: small business accounting / teacher lesson planning / real estate agents]. Map out the 90-10 split for my domain: What's the mechanical 90% AI can handle, and what's the strategic 10% I must handle as a human?" Then validate: Is this split realistic, or is AI overestimating what it can automate?
+
+**What you're practicing**: Applying the 90-10 framework to YOUR specific context, then reality-checking AI's assessment with your own domain knowledge.
 
 ---
 
@@ -144,10 +162,10 @@ The '90-10 rule' says AI handles 90% (mechanical work) and humans handle 10% (ju
 
 ### Prompt 2: Compare Past vs. Present Advantages
 ```
-The lesson shows Instagram (13 employees, $1B valuation) and WhatsApp (55 employees, $19B valuation) as examples. Help me understand: What did those small teams DO all day if AI wasn't available yet? How is my situation DIFFERENT today with AI tools? What's easier for me now than it was for them?
+The lesson shows Instagram (13 employees, $1B valuation) and WhatsApp (55 employees, $19B valuation) as examples. Let's explore this together: First, help me understand what those small teams did all day if AI wasn't available yet. Then I'll share my hypothesis about what's different today, and you build on it or challenge it. Let's co-create an understanding of why my situation TODAY is fundamentally different (and possibly better) than theirs was in 2012-2014.
 ```
 
-**Expected outcome**: Understanding of how AI tools change YOUR advantage vs. past entrepreneurs.
+**Expected outcome**: Understanding of how AI tools change YOUR advantage vs. past entrepreneurs, achieved through **collaborative exploration** where you and your AI build insights together.
 
 ### Prompt 3: Map The First Milestone
 ```

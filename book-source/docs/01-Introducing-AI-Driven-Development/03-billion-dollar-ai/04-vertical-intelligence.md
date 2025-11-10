@@ -69,6 +69,10 @@ In the AI era, code is *disposable*. A subagent can generate 10,000 lines of spe
 
 **The new principle is: Reuse intelligence, not code.**
 
+#### 🎓 Instructor Commentary
+
+> This paradigm shift is counterintuitive for developers trained in traditional software engineering. For decades, we learned "write once, run everywhere" and "don't repeat yourself." But when code generation is nearly free (seconds via AI), **maintaining reusable code becomes more expensive than regenerating specialized code**. Think of it like mass production vs. 3D printing: mass production requires expensive molds (reusable code), but 3D printing can create custom objects on demand (regenerated code). When customization is free, standardization loses its economic advantage.
+
 ## The Five Components of a Reusable Subagent
 
 A super orchestrator relies on five components that are reusable across applications:
@@ -105,6 +109,10 @@ This is where the defensibility lives. A finance subagent connects to Bloomberg 
 
 These integrations are not reusable across industries, but they're the moat. A solo developer who builds tight integrations with Epic Systems (used by 55% of U.S. hospitals) creates defensibility that competitors must rebuild from scratch.
 
+#### 💬 AI Colearning Prompt
+
+> **Explore with your AI**: "The lesson describes five components of a reusable subagent. Let's test which components create the most defensibility—ask your AI: 'Rank these five components from EASIEST to HARDEST for a competitor to replicate.' Then challenge its ranking: Do you agree? What makes vertical MCP connections harder to replicate than, say, system prompts?"
+
 ## Traditional Code Reuse vs. Vertical Intelligence Reuse
 
 | Dimension | Traditional Code Reuse | Vertical Intelligence Reuse |
@@ -114,6 +122,10 @@ These integrations are not reusable across industries, but they're the moat. A s
 | **Maintenance** | Centralized (one library, many users) | Distributed (each application owns its copy) |
 | **Scalability** | Limited (library updates risk breaking changes) | Unlimited (new applications get fresh code) |
 | **Value Source** | Code logic | Domain expertise and integrations |
+
+#### ✨ Teaching Tip
+
+The shift from code reuse to intelligence reuse mirrors the shift from libraries to APIs: In the 1990s, you downloaded libraries (code reuse). In the 2010s, you called APIs (service reuse). In the 2020s, you configure subagents (intelligence reuse). Each evolution abstracted away more mechanical work, letting developers focus on higher-value strategy.
 
 ## A Concrete Example: Accounting Library vs. Accounting Subagent
 
@@ -128,6 +140,12 @@ These integrations are not reusable across industries, but they're the moat. A s
 When you want to serve a new customer, you don't reuse code. You generate *new* code tailored to that customer's workflows. But you reuse the intelligence—the system prompt, the tax knowledge, the integrations.
 
 The code is disposable. The intelligence is permanent. The value per developer stays high because you focus on domain expertise and integrations, not code maintenance.
+
+#### 🚀 CoLearning Challenge
+
+**Quick Test**: Pick a domain you know well (small business accounting, teacher lesson planning, real estate, etc.). Ask your AI: "Design the five components of a subagent for [your domain]. For each component, give me one specific example." Then validate: Are these components realistic, or is AI making assumptions about your domain it shouldn't?
+
+**What you're practicing**: Applying the five-component framework to YOUR domain, then using your domain knowledge to reality-check AI's design.
 
 ---
 
@@ -155,10 +173,10 @@ The lesson lists five components of a reusable subagent: (1) system prompt, (2) 
 
 ### Prompt 3: Build A Subagent Roadmap
 ```
-I'm confused by the accounting example at the end. Walk me through it step-by-step: If I wanted to build an 'accounting subagent' for small businesses, what would I actually build FIRST? What would I build SECOND? What would I build THIRD? Give me a 3-step roadmap that a beginner could follow.
+I'm confused by the accounting example at the end. Let's work together to create a roadmap: First, help me identify what I'd build FIRST for an 'accounting subagent for small businesses.' Then I'll tell you my constraints (time, budget, technical skill), and you adapt the roadmap based on MY reality. Let's iterate until we have a 3-step plan that's ambitious but achievable for someone like me.
 ```
 
-**Expected outcome**: Step-by-step roadmap for building your first subagent (not overwhelming).
+**Expected outcome**: Step-by-step roadmap for building your first subagent (not overwhelming), created through **collaborative planning** where your AI adapts to your specific constraints.
 
 ### Prompt 4: Understand Disposable Code Economics
 ```

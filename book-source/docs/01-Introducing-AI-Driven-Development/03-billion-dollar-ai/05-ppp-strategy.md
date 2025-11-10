@@ -77,6 +77,10 @@ To the school, you're not a replacement. You're an add-on making existing system
 
 **Timeline**: 4-6 months to build integrations with all major platforms in a vertical.
 
+#### 💬 AI Colearning Prompt
+
+> **Explore with your AI**: "Phase 1 says 'become the indispensable bridge' between fragmented systems. Let's test this strategy—ask your AI: 'Give me an example of a company that succeeded by bridging fragmented systems, then later pivoted to own the market.' Then challenge it: Is this PPP pattern actually proven, or are we extrapolating from a few lucky examples?"
+
 ## Phase 2: Market Validation (Months 6-18)
 
 **Your goal**: Reach critical mass (60-80 customers), prove retention and unit economics.
@@ -91,6 +95,10 @@ At this stage, you're still piggybacking. You're still integrating with incumben
 **Why this phase matters**: You're proving that the market exists and that customers will pay for your solution. You're building relationships with key accounts (district administrators, hospital CTOs, finance directors) who will become your advocates.
 
 **Timeline**: 12-18 months to reach 60-80 customers, achieve product-market fit, stabilize CAC and retention.
+
+#### 🎓 Instructor Commentary
+
+> Phase 2 is where most solo entrepreneurs underinvest. They rush to build features (Phase 3) before proving customers actually want the bridge (Phase 2). The discipline here is **patience**: spend 12-18 months listening to customers, understanding their workflows, and building trust. This customer intimacy becomes your moat—you know what they need before they articulate it. Competitors who skip Phase 2 build features nobody wants.
 
 ## Phase 3: Strategic Pivot (Months 18-36)
 
@@ -131,6 +139,10 @@ Three strategies exist for entering a vertical market:
 
 **Piggyback Protocol Pivot** wins on two dimensions: CAC and defensibility. You're not fighting for brand awareness (incumbents do that). You're leveraging their distribution. You're not racing feature-parity. You're building integrations they can't easily replicate.
 
+#### ✨ Teaching Tip
+
+PPP mirrors how Stripe entered payments: they didn't compete with PayPal for consumers—they built payment infrastructure for developers (Layer 2). Once developers adopted Stripe's APIs, Stripe pivoted to serve businesses directly (Layer 3). The "piggyback" phase gave them distribution and trust they couldn't have earned by competing head-on.
+
 ### Realistic PPP Timeline
 
 - **Months 0-6**: Build integrations, validate technical feasibility
@@ -141,6 +153,12 @@ Three strategies exist for entering a vertical market:
 
 This is the path to a billion dollars as a solo entrepreneur. Not in one year. But in five to seven years, building one vertical market deeply, then expanding strategically.
 
+#### 🚀 CoLearning Challenge
+
+**Quick Test**: Pick a vertical market (education, healthcare, small business tools). Ask your AI: "Identify 2-3 incumbent systems in this vertical that don't talk to each other well. For each pair, explain: Why don't they integrate? What would a 'bridge solution' look like?" Then evaluate: Which integration would be easiest to build first?
+
+**What you're practicing**: Applying PPP Phase 1 (infrastructure bridge) to a specific vertical, then using your judgment to prioritize which integration to tackle first.
+
 ---
 
 ## Try With AI
@@ -149,10 +167,10 @@ Use your AI companion tool set up (e.g., ChatGPT web, Claude Code, Gemini CLI), 
 
 ### Prompt 1: Reality-Check PPP Timeline
 ```
-The 'Piggyback Protocol Pivot' (PPP) strategy has three phases over 18-36 months. Help me reality-check this: I'm [describe your situation: working full-time / in school / etc.]. Can I realistically execute PPP as a side project? If yes, how would the timeline change? If no, what's my alternative path?
+The 'Piggyback Protocol Pivot' (PPP) strategy has three phases over 18-36 months. Let's reality-check this together: I'm [describe your situation: working full-time / in school / etc.]. First, help me assess whether PPP fits my constraints. Then I'll share my biggest concern (time? money? technical skill?), and you adapt the strategy to MY reality. Let's co-create a version of PPP that's ambitious but achievable for someone in my situation.
 ```
 
-**Expected outcome**: Honest assessment of whether PPP fits YOUR time and resource constraints.
+**Expected outcome**: Honest assessment of whether PPP fits YOUR time and resource constraints, achieved through **collaborative adaptation** where your AI helps you modify the strategy to match your reality.
 
 ### Prompt 2: Design A Bridge Solution
 ```
