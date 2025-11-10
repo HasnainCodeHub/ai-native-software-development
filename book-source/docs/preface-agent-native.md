@@ -8,19 +8,33 @@ part: "preface"
 next: "/docs/part-1/chapter-1"
 sidebar_position: 0
 ---
+import welcomeImg from './welcome.png';
+import aboutImg from './about.png';
+import whatYouLearnImg from './whatYouLearn.png';
+import whoThisBookFor from './whoThisBookFor.png';
+import fundamental from './fundamental.png';
+import question from './question.png';
+import market from './market.png';
 
 # Preface: Welcome to the AI-Native Era
+
+
 
 For the first time in human history, we're not teaching machines *what* to do — we're teaching them *how to learn with us*.
 
 **This is the book for developers who want to build the future.**
-
----
+<p align="center">
+  <img src={welcomeImg} alt="Welcome" style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} />
+</p>
 
 ## What This Book Is About
 
-This book, **"AI Native Software Development: Colearning Agentic AI with Python and TypeScript — The AI & Spec Driven Way,"** teaches you a fundamentally different approach to building software.
 
+
+This book, **"AI Native Software Development: Colearning Agentic AI with Python and TypeScript — The AI & Spec Driven Way,"** teaches you a fundamentally different approach to building software.
+<p align="center">
+  <img src={aboutImg} alt="Welcome" style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} />
+</p>
 ### The Core Paradigm Shift
 
 - **Traditional development:** You write code → machines execute it → you own all details.
@@ -34,11 +48,15 @@ The consequences ripple through everything:
 
 This isn't a small productivity boost. **This is a fundamental restructuring of how software gets built.**
 
----
+
 
 ## What You'll Learn
 
 By the end of this book, you will be able to:
+<p align="center">
+  <img src={whatYouLearnImg} alt="Welcome" style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} />
+</p>
+
 
 - **Build AI-native applications** combining reasoning (Python) and interaction (TypeScript)
 - **Work with AI collaborators** — Claude Code, Gemini CLI, and custom agents as teammates
@@ -49,9 +67,12 @@ By the end of this book, you will be able to:
 
 **You'll discover:** AI development is no longer about memorizing syntax — it's about **designing intelligent collaborations**.
 
----
+
 
 ## Who This Book Is For
+<p align="center">
+  <img src={whoThisBookFor} alt="Welcome" style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} />
+</p>
 
 - **Students & Self-Learners** — Learn coding through AI interaction (no prerequisites needed)
 - **Developers** — Curious about AI-driven workflows and thinking differently about software
@@ -60,11 +81,16 @@ By the end of this book, you will be able to:
 
 **If you can describe your idea in words, you can build it. This book shows you how.**
 
----
+
 
 ## The Fundamental Skill Shift: "Specs Are the New Syntax"
 
 In traditional programming, the primary skill was **mastering syntax**—memorizing language constructs and typing implementations manually. In AI-native development, the primary skill is **mastering specifications**—articulating intent so clearly that AI agents execute flawlessly.
+
+<p align="center">
+  <img src={fundamental} alt="Welcome" style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} />
+</p>
+
 
 **"Specs are the new syntax."**
 
@@ -84,6 +110,10 @@ Just as developers once studied language reference manuals to write code, AI-nat
 ## The Questions You're Probably Asking
 
 Before we go further, let's address the concerns you might have right now:
+
+<p align="center">
+  <img src={question} alt="Welcome" style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} />
+</p>
 
 ### "Am I too late?"
 **If you're a beginner:** The barriers that kept people out of programming for 50 years are dissolving. You're not too late—you're perfectly timed.
@@ -116,6 +146,10 @@ All of these require human expertise, judgment, and creativity. These are the sk
 
 One of the most persistent fears about AI-assisted development is market contraction: "If AI makes developers more productive, won't companies need fewer developers?"
 
+<p align="center">
+  <img src={market} alt="Welcome" style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} />
+</p>
+
 **The opposite is happening.**
 
 Because AI tools make developers more productive, the demand for software is **increasing**, not decreasing. Here's why:
@@ -131,10 +165,15 @@ Because AI tools make developers more productive, the demand for software is **i
 **This is the best time in decades to be learning software development—not despite AI, but because of it.**
 
 ---
+import whyWeWrote from './whyWeWrote.png';
 
 ## Why We Wrote This Book
 
 When we started coding, development felt like *craftsmanship* — precise, logical, deliberate. Every semicolon mattered.
+
+<p align="center">
+  <img src={whyWeWrote} alt="Welcome" style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} />
+</p>
 
 Today, something extraordinary has happened: **software is learning to write itself**, and our role as developers is transforming.
 
@@ -185,12 +224,17 @@ This book teaches what AI CAN'T automate:
 We wrote this book to **make the AI-native world accessible to everyone** — whether you're a complete beginner or an experienced engineer. You don't need to fear this shift; you need to *flow with it*. The AI revolution rewards those who learn how to **talk to machines that think**.
 
 ---
+import philosophy from './philosophy.png';
 
 ## The Philosophy: Co-Learning Between Human and Machine
 
 ### What Makes This Different
 
 Traditional education: "Instruct the computer what to do"
+
+<p align="center">
+  <img src={philosophy} alt="Welcome" style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} />
+</p>
 
 **AI-native era:** "Learn together" — humans and agents refining each other's understanding
 
@@ -232,10 +276,15 @@ Over time, something remarkable happens:
    - Convergence happens through practice, not perfection
 
 ---
+import threeRole from './threeRole.png';
 
 ## The Three-Role AI Partnership
 
 In AI-native development, both human and AI simultaneously fulfill three distinct roles, creating a complete learning and working ecosystem.
+
+<p align="center">
+  <img src={threeRole} alt="Welcome" style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} />
+</p>
 
 ### AI's Three Roles
 
@@ -297,9 +346,15 @@ When these three layers connect, the system doesn't just respond — it *underst
 
 ---
 
+import spectrum from './spectrum.png';
+
 ## The AI Development Spectrum
 
 Before diving deep, let's map the territory with three practical levels:
+
+<p align="center">
+  <img src={spectrum} alt="Welcome" style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} />
+</p>
 
 ### Level 1: AI-Assisted Development
 
@@ -363,7 +418,14 @@ AI-Assisted  →  AI-Driven  →  AI-Native
 
 ---
 
+import multiplifier from './multiplifier.png';
+
+
 ## The 10x to 99x Multiplier: How Mindset Determines Productivity
+
+<p align="center">
+  <img src={multiplifier} alt="Welcome" style={{ maxWidth: "50%", height: "auto", borderRadius: "8px" }} />
+</p>
 
 The productivity gains from AI-native development scale with your mindset transformation:
 
@@ -393,6 +455,7 @@ The productivity gains from AI-native development scale with your mindset transf
 ---
 
 ## The Competitive Reality: 89% Are Unprepared
+
 
 ### The Market Gap
 
