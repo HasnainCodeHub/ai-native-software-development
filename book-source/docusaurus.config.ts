@@ -89,7 +89,6 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-
         },
         blog: false,
         theme: {
@@ -109,6 +108,28 @@ const config: Config = {
   plugins: [
     "./plugins/docusaurus-plugin-og-image-generator",
     "./plugins/docusaurus-plugin-structured-data",
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        // Options for the search plugin
+        indexDocs: true,
+        indexDocSidebarParentCategories: 0,
+        indexBlog: false,
+        indexPages: false,
+        language: "en",
+        style: undefined,
+        maxSearchResults: 8,
+        lunr: {
+          tokenizerSeparator: /[\s\-]+/,
+          b: 0.75,
+          k1: 1.2,
+          titleBoost: 5,
+          contentBoost: 1,
+          tagsBoost: 3,
+          parentCategoriesBoost: 2,
+        },
+      },
+    ],
     function (context, options) {
       return {
         name: "custom-webpack-config",
@@ -182,6 +203,10 @@ const config: Config = {
           sidebarId: "tutorialSidebar",
           position: "left",
           label: "Book",
+        },
+        {
+          type: "search",
+          position: "right",
         },
         {
           href: "https://github.com/panaversity/ai-native-software-development",

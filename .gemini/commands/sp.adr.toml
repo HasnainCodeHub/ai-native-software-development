@@ -4,7 +4,7 @@ prompt = """
 ---
 description: Review planning artifacts for architecturally significant decisions and create ADRs.
 ---
-
+w
 # COMMAND: Analyze planning artifacts and document architecturally significant decisions as ADRs
 
 ## CONTEXT

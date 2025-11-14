@@ -56,7 +56,7 @@ function HomepageHeader() {
               <Link
                 className={clsx(
                   "button button--primary button--md",
-                  styles.ctaButton
+                  styles.ctaButton,
                 )}
                 to="/docs/preface-agent-native"
               >
@@ -68,7 +68,7 @@ function HomepageHeader() {
               <Link
                 className={clsx(
                   "button button--outline button--md",
-                  styles.secondaryButton
+                  styles.secondaryButton,
                 )}
                 href="https://panaversity.org/flagship-program/courses"
                 target="_blank"
@@ -379,7 +379,7 @@ function MaturityLevelsSection() {
           <div
             className={clsx(
               styles.maturityLevel,
-              styles.maturityLevelHighlight
+              styles.maturityLevelHighlight,
             )}
           >
             <div className={styles.maturityBadge}>BOOK FOCUS</div>
@@ -408,7 +408,7 @@ function MaturityLevelsSection() {
           <div
             className={clsx(
               styles.maturityLevel,
-              styles.maturityLevelHighlight
+              styles.maturityLevelHighlight,
             )}
           >
             <div className={styles.maturityBadge}>BOOK FOCUS</div>
@@ -547,7 +547,7 @@ function ParadigmShift() {
             <div
               className={clsx(
                 styles.comparisonCard,
-                styles.comparisonCardHighlight
+                styles.comparisonCardHighlight,
               )}
             >
               <div className={styles.comparisonIconWrapper}>
@@ -608,7 +608,7 @@ function ParadigmShift() {
               <Link
                 className={clsx(
                   "button button--primary button--lg",
-                  styles.paradigmCTAButton
+                  styles.paradigmCTAButton,
                 )}
                 to="/docs/preface-agent-native"
               >

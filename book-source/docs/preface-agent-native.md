@@ -15,8 +15,11 @@ import whoThisBookFor from './whoThisBookFor.png';
 import fundamental from './fundamental.png';
 import question from './question.png';
 import market from './market.png';
+import BookSearchBar from '@site/src/components/BookSearchBar';
 
 # Preface: Welcome to the AI-Native Era
+
+<BookSearchBar />
 
 
 
